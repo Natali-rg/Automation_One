@@ -17,8 +17,8 @@ public class HomeWorkTest {
 
         WebElement searchField=driver.findElement(By.id("btn-consultation-hero"));
         if (searchField.isDisplayed()){
-            System.out.println("True, this button exists");
-        }else System.out.println("False, this button didn't load");
+            System.out.println("True, this element exists");
+        }else System.out.println("False, this element didn't load");
 
 
         try {
